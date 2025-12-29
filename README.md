@@ -1,3 +1,5 @@
+自动重新构建的尝试
+
 # Accessible Astro Starter
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
