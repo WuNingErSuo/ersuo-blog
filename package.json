@@ -10,7 +10,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "wrangler deploy"
   },
   "keywords": [
     "astro",
@@ -60,6 +61,7 @@
     "tailwindcss": "^4.1.13"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/sitemap": "^3.5.1",
     "@tailwindcss/vite": "^4.1.13",
     "accessible-astro-components": "^5.0.1"
