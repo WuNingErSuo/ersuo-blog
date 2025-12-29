@@ -9,7 +9,7 @@ import sitemap from '@astrojs/sitemap'
 import tailwindcss from '@tailwindcss/vite'
 import { watch } from 'fs'
 
-import cloudflare from "@astrojs/cloudflare";
+// import cloudflare from "@astrojs/cloudflare";
 
 // Check if we're using a symlinked/workspace setup
 const componentsPath = resolve('./node_modules/accessible-astro-components')
@@ -93,10 +93,10 @@ export default defineConfig({
   integrations: [compress(), icon(), mdx(), sitemap()],
   vite: viteConfig,
 
-  output: 'server', // 或 'hybrid'
-    adapter: cloudflare({
-    platformProxy: {
-      enabled: true,
-    },
-  }),
+  // output: 'server', // 或 'hybrid'
+  //   adapter: cloudflare({
+  //   platformProxy: {
+  //     enabled: true,
+  //   },
+  // }),
 })
